@@ -1,0 +1,64 @@
+.data{
+    background: rgb(215, 206, 206);
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    /* margin: 24px,10px; */
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 9px;
+}
+  th, td{
+    padding: 9px;
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: rgb(234, 235, 236);
+}
+.edit{
+    background: blue;
+    font-size: 18px;
+    padding: 8px;
+    margin: 9px;
+    border-radius: 9px;
+}
+.delete{
+    background: red;
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 9px;
+}
+.read{
+    background: rgb(107, 213, 224);
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+
+.hh{
+    display: flex;
+    justify-content: center;
+    /* background: rgb(179, 82, 82); */
+    /* position: relative; */
+}
+.add {
+  
+    display: flex;
+    justify-content: end;
+    border: 2px solid gray;
+    background: #43d895;
+    /* position: absolute; */
+    /* margin-top: 22px; */
+    /* width: 82px; */
+    width: 82px;
+    margin-left: 542px;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 9px
+}
